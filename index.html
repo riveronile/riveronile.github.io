@@ -1,17 +1,48 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>瀚岚思 | 个人博客</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <canvas id="trailCanvas"></canvas>
 
-    <main class="glass-container">
-        <h1>我的液态博客</h1>
-        <p>欢迎来到高颜值空间。</p>
-        <div class="glass-card">文章摘要：液态玻璃美学与性能优化...</div>
-    </main>
+  <!-- 头部 -->
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">瀚岚思</h1>
+      <nav class="nav">
+        <a href="#">首页</a>
+        <a href="#">文章</a>
+        <a href="#">关于</a>
+      </nav>
+    </div>
+  </header>
 
-    <script src="script.js"></script>
+  <!-- 博客内容 -->
+  <main class="main">
+    <div class="container">
+      <div class="card">
+        <h2>我的第一篇博客</h2>
+        <p>这是使用 GitHub Pages 搭建的免费博客，极简苹果风格，干净又高级。</p>
+      </div>
+
+      <div class="card">
+        <h2>关于这个网站</h2>
+        <p>纯前端实现，无需服务器，免费、稳定、快速。</p>
+      </div>
+
+      <div class="card">
+        <h2>未来计划</h2>
+        <p>持续分享学习记录、技术心得、生活感悟。</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- 鼠标拖尾特效 -->
+  <div class="trailer"></div>
+
+  <script src="script.js"></script>
 </body>
 </html>
